@@ -1,0 +1,71 @@
+[
+  {
+    "id": "1",
+    "name": "Rwitankar Paul",
+    "headline": "Full-Stack Developer | React • Node.js • Cloud",
+    "location": "Kolkata, West Bengal, India",
+    "avatar": "https://i.pravatar.cc/150?img=11",
+    "cover": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?w=900&auto=format&fit=crop&q=80",
+    "connections": 487,
+    "about": "Passionate software engineer with 3+ years of experience building scalable web applications. I love turning complex problems into elegant, user-friendly solutions. Always learning, always building.",
+    "experience": [
+      {
+        "id": "e1",
+        "role": "Software Engineer Intern",
+        "company": "TechNova Solutions",
+        "duration": "Jun 2024 – Present",
+        "description": "Building React-based dashboards and REST APIs with Node.js. Improved load time by 35% through code-splitting and lazy loading."
+      },
+      {
+        "id": "e2",
+        "role": "Freelance Web Developer",
+        "company": "Self-employed",
+        "duration": "Jan 2023 – May 2024",
+        "description": "Delivered 12+ client projects including e-commerce sites and SaaS tools using React, Tailwind, and Firebase."
+      }
+    ],
+    "education": [
+      {
+        "id": "ed1",
+        "degree": "B.Tech in Computer Science",
+        "school": "Heritage Institute of Technology",
+        "years": "2021 – 2025"
+      },
+      {
+        "id": "ed2",
+        "degree": "Higher Secondary (Science)",
+        "school": "Ramakrishna Mission Vidyapith",
+        "years": "2019 – 2021"
+      }
+    ],
+    "skills": ["React", "Node.js", "JavaScript", "TypeScript", "Tailwind CSS", "MongoDB", "Git", "REST APIs", "Firebase", "Docker"]
+  },
+  {
+    "id": "2",
+    "name": "Priya Sharma",
+    "headline": "UI/UX Designer | Figma • Design Systems",
+    "location": "Bengaluru, Karnataka, India",
+    "avatar": "https://i.pravatar.cc/150?img=25",
+    "cover": "https://images.unsplash.com/photo-1614850715649-1d0106293bd1?w=900&auto=format&fit=crop&q=80",
+    "connections": 612,
+    "about": "Creative UI/UX designer with a passion for crafting delightful digital experiences. I bridge the gap between aesthetics and usability.",
+    "experience": [
+      {
+        "id": "e1",
+        "role": "Product Designer",
+        "company": "DesignHub India",
+        "duration": "Mar 2023 – Present",
+        "description": "Leading design for B2B SaaS products, building and maintaining a company-wide design system used by 5 product teams."
+      }
+    ],
+    "education": [
+      {
+        "id": "ed1",
+        "degree": "B.Des in Interaction Design",
+        "school": "NID Ahmedabad",
+        "years": "2019 – 2023"
+      }
+    ],
+    "skills": ["Figma", "User Research", "Prototyping", "Design Systems", "Accessibility", "CSS", "Framer"]
+  }
+]

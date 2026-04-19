@@ -1,8 +1,14 @@
-import { createRoot } from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import FeedPage from "./pages/FeedPage";
+import ProfilePage from "./pages/ProfilePage";
 
-let a = (
-    <div>
-        <h1>Hlo</h1>
-    </div>
-)
-createRoot(document.getElementById("root")).render(a)
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<FeedPage />} />
+        <Route path="/profile/:id" element={<ProfilePage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
