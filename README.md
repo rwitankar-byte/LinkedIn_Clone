@@ -18,9 +18,10 @@ A frontend clone of LinkedIn built with React, React Router v6, and Tailwind CSS
 
 | Name | Branch | Responsibility |
 |---|---|---|
-| Ayush | `member1-feed` | Navbar, Feed Page, MiniProfile, Suggestions |
-| Kunal | `member2-posts` | PostCard, CreatePost, posts.json |
+| Ayush | `Ayush` | Navbar, Feed Page, MiniProfile, Suggestions |
+| Kunal | `Kunal` | PostCard, CreatePost, posts.json |
 | Rwitankar | `Rwitankar` | Profile Page, ExperienceCard, EducationCard, SkillBadge, users.json |
+| Dipesh | `Dipesh` | Jobs Page, JobCard, jobs.json, Vercel Deployment |
 
 ---
 
@@ -30,6 +31,7 @@ A frontend clone of LinkedIn built with React, React Router v6, and Tailwind CSS
 - Create new posts via the post input box
 - View detailed user Profile with experience, education, and skills
 - Connect button toggle on profile page
+- Browse Jobs listings with search filter and save toggle
 - Navigate between pages using React Router
 - Fully responsive layout with Tailwind CSS
 - Static JSON data — no backend required
@@ -43,7 +45,7 @@ A frontend clone of LinkedIn built with React, React Router v6, and Tailwind CSS
 | React 19 + Vite 8 | Frontend framework & build tool |
 | React Router v6 | Client-side routing |
 | Tailwind CSS (Vite plugin) | Styling & responsiveness |
-| Static JSON | Mock data for posts and users |
+| Static JSON | Mock data for posts, users, and jobs |
 | Vercel | Deployment |
 
 ---
@@ -62,15 +64,18 @@ linkedin-clone/
 │   │   ├── Suggestions.jsx
 │   │   ├── ExperienceCard.jsx
 │   │   ├── EducationCard.jsx
-│   │   └── SkillBadge.jsx
+│   │   ├── SkillBadge.jsx
+│   │   └── JobCard.jsx
 │   ├── pages/
 │   │   ├── FeedPage.jsx
-│   │   └── ProfilePage.jsx
+│   │   ├── ProfilePage.jsx
+│   │   └── JobsPage.jsx
 │   ├── context/
 │   │   └── UserContext.jsx
 │   ├── data/
 │   │   ├── posts.json
-│   │   └── users.json
+│   │   ├── users.json
+│   │   └── jobs.json
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
@@ -85,13 +90,14 @@ linkedin-clone/
 
 | Concept | Where |
 |---|---|
-| `useState` | Like toggle, Connect button, Create post |
+| `useState` | Like toggle, Connect button, Create post, Job save, Search filter |
 | `useContext` | Logged-in user data via UserContext |
 | `useParams` | Dynamic `/profile/:id` route |
-| `React Router v6` | `/feed` and `/profile/:id` pages |
-| Props | PostCard, ExperienceCard, SkillBadge |
+| `React Router v6` | `/feed`, `/profile/:id`, `/jobs` pages |
+| Props | PostCard, ExperienceCard, SkillBadge, JobCard |
 | Component reuse | Cards reused across pages |
-| Array `.map()` | Rendering posts, skills, experience lists |
+| Array `.map()` | Rendering posts, skills, experience, jobs lists |
+| Array `.filter()` | Search filter on Jobs page |
 
 ---
 
@@ -122,6 +128,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 | `/` | Redirect | Redirects to `/feed` |
 | `/feed` | Feed Page | Posts feed with like and create post |
 | `/profile/:id` | Profile Page | User profile with experience, education, skills |
+| `/jobs` | Jobs Page | Job listings with search filter and save toggle |
 
 ---
 
