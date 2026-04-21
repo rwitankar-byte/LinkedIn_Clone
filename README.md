@@ -32,7 +32,7 @@ A frontend clone of LinkedIn built with React, React Router v6, and Tailwind CSS
 - View detailed user Profile with experience, education, and skills
 - Connect button toggle on profile page
 - Browse Jobs listings with search filter and save toggle
-- Navigate between pages using React Router
+- Navigate between pages using useState
 - Fully responsive layout with Tailwind CSS
 - Static JSON data — no backend required
 
@@ -43,7 +43,7 @@ A frontend clone of LinkedIn built with React, React Router v6, and Tailwind CSS
 | Technology | Use |
 |---|---|
 | React 19 + Vite 8 | Frontend framework & build tool |
-| React Router v6 | Client-side routing |
+| useState | Page navigation |
 | Tailwind CSS (Vite plugin) | Styling & responsiveness |
 | Static JSON | Mock data for posts, users, and jobs |
 | Vercel | Deployment |
