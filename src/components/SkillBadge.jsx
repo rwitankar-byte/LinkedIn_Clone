@@ -1,7 +1,20 @@
-export default function SkillBadge({ skill }) {
+// SkillBadge.jsx
+//
+// WHAT IT DOES:
+// Shows one skill as a small blue pill/badge
+//
+// HOW TO USE IT:
+// <SkillBadge skill="React" />
+//
+// WHERE IT'S USED:
+// ProfilePage.jsx — inside the Skills section
+
+function SkillBadge({ skill }) {
   return (
-    <span className="inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium bg-blue-50 text-blue-700 border border-blue-200 hover:bg-blue-100 transition-colors duration-150 cursor-default">
+    <span className="inline-block bg-blue-100 text-blue-700 text-sm font-medium px-3 py-1 rounded-full border border-blue-200">
       {skill}
     </span>
   );
 }
+
+export default SkillBadge;
