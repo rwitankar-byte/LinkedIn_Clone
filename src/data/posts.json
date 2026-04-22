@@ -1,1 +1,64 @@
-[]
+[
+  {
+    "id": 1,
+    "user": {
+      "name": "Jane Doe",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "headline": "Senior Software Engineer at TechCorp"
+    },
+    "content": "Just completed my first week at TechCorp! I'm really excited to dive into React and Tailwind CSS to build some amazing products. The team here is fantastic and I can't wait to see what we achieve together. 🚀 #ReactJS #NewJob #Tech",
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800",
+    "likes": 124,
+    "comments": 15,
+    "timestamp": "2h"
+  },
+  {
+    "id": 2,
+    "user": {
+      "name": "John Smith",
+      "avatar": "https://i.pravatar.cc/150?img=2",
+      "headline": "Product Manager | Agile Enthusiast"
+    },
+    "content": "A friendly reminder to all PMs: Your most important metric is user satisfaction. Features are great, but if they don't solve real problems, they're just noise. Talk to your users today! 💡",
+    "likes": 342,
+    "comments": 48,
+    "timestamp": "5h"
+  },
+  {
+    "id": 3,
+    "user": {
+      "name": "Sarah Jenkins",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "headline": "Data Scientist | AI & Machine Learning"
+    },
+    "content": "I recently gave a talk on the ethical implications of AI in healthcare. It was a fascinating discussion with so many brilliant minds in the room. We need more forums to discuss the responsibility that comes with deploying these models. Check out the highlights from the conference! 🤖🏥",
+    "image": "https://images.unsplash.com/photo-1591453006520-1b7f0789ce86?auto=format&fit=crop&q=80&w=800",
+    "likes": 89,
+    "comments": 12,
+    "timestamp": "1d"
+  },
+  {
+    "id": 4,
+    "user": {
+      "name": "David Chen",
+      "avatar": "https://i.pravatar.cc/150?img=4",
+      "headline": "UX/UI Designer @ CreativeStudio"
+    },
+    "content": "Design isn't just how it looks, it's how it works. Spent the weekend redesigning my personal portfolio using Tailwind. The utility-first approach is an absolute game changer for rapid prototyping. Has anyone else made the switch from traditional CSS to Tailwind? Let me know your thoughts!",
+    "likes": 210,
+    "comments": 34,
+    "timestamp": "2d"
+  },
+  {
+    "id": 5,
+    "user": {
+      "name": "Emily Rodriguez",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "headline": "DevOps Engineer | Cloud Computing Specialist"
+    },
+    "content": "Finally got my AWS Solutions Architect Professional certification! 🎉 It took months of studying and hands-on practice, but it was absolutely worth it. To anyone preparing for it: focus on the edge cases and read the whitepapers. On to the next challenge! ☁️",
+    "likes": 567,
+    "comments": 89,
+    "timestamp": "3d"
+  }
+]
