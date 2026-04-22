@@ -1,7 +1,13 @@
-// FeedPage.jsx
-// 🔝 Member 1 — build this page
-// This is a placeholder so the app doesn't crash
+import React from 'react';
+import posts from '../data/posts.json';
+import PostCard from '../components/PostCard';
 
 export default function FeedPage() {
-  return <div>FeedPage — Member 1 will build this</div>;
+  return (
+    <div>
+      {posts.map(post => (
+        <PostCard key={post.id} post={post} />
+      ))}
+    </div>
+  );
 }
