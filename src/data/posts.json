@@ -27,12 +27,12 @@
   {
     "id": 3,
     "user": {
-      "name": "Sarah Jenkins",
+      "name": "Kunal Singh",
       "avatar": "https://i.pravatar.cc/150?img=3",
       "headline": "Data Scientist | AI & Machine Learning"
     },
     "content": "I recently gave a talk on the ethical implications of AI in healthcare. It was a fascinating discussion with so many brilliant minds in the room. We need more forums to discuss the responsibility that comes with deploying these models. Check out the highlights from the conference! 🤖🏥",
-    "image": "https://images.unsplash.com/photo-1591453006520-1b7f0789ce86?auto=format&fit=crop&q=80&w=800",
+    "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=800",
     "likes": 89,
     "comments": 12,
     "timestamp": "1d"
