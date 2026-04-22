@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 export default function PostCard({ post }) {
   const [isLiked, setIsLiked] = useState(false);
 
-  // Default values if data is missing
   const {
     user = {
       name: 'Unknown User',
@@ -19,7 +18,6 @@ export default function PostCard({ post }) {
 
   return (
     <div className="bg-white border border-gray-200 rounded-lg shadow-sm mb-4 overflow-hidden">
-      {/* Header */}
       <div className="flex items-center px-4 pt-4 pb-2">
         <img
           src={user.avatar}
@@ -46,19 +44,16 @@ export default function PostCard({ post }) {
         </button>
       </div>
 
-      {/* Content */}
       <div className="px-4 py-2">
         <p className="text-sm text-gray-800 whitespace-pre-wrap">{content}</p>
       </div>
 
-      {/* Image */}
       {image && (
         <div className="mt-2 w-full">
           <img src={image} alt="Post content" className="w-full max-h-96 object-cover" />
         </div>
       )}
 
-      {/* Stats */}
       <div className="flex items-center justify-between px-4 py-2 text-xs text-gray-500 border-b border-gray-100 border-t mt-2">
         <div className="flex items-center">
           <div className="flex -space-x-1 mr-1">
@@ -75,7 +70,6 @@ export default function PostCard({ post }) {
         </div>
       </div>
 
-      {/* Actions */}
       <div className="flex items-center justify-between px-2 py-1">
         <button
           onClick={() => setIsLiked(!isLiked)}
