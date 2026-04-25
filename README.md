@@ -8,7 +8,7 @@ A frontend clone of LinkedIn built with React, React Router v6, and Tailwind CSS
 
 | | |
 |---|---|
-| 🚀 Live Demo | *(paste Vercel URL here)* |
+| 🚀 Live Demo | *linked-in-clone-one-livid.vercel.app* |
 | 🐙 GitHub Repo | https://github.com/rwitankar-byte/LinkedIn_Clone |
 | 🎥 Presentation Video | *(paste video link here)* |
 
