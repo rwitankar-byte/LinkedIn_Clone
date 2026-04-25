@@ -60,5 +60,91 @@
     "likes": 567,
     "comments": 89,
     "timestamp": "3d"
+  },
+  {
+    "id": 6,
+    "user": {
+      "name": "Sarah Jenkins",
+      "avatar": "https://i.pravatar.cc/150?img=6",
+      "headline": "Engineering Manager @ InnovateTech"
+    },
+    "content": "I am thrilled to announce that we are expanding our engineering team at InnovateTech! We are looking for passionate Frontend Developers who love React and TypeScript. If you enjoy building scalable user interfaces and want to work with an amazing team, please reach out or apply via the link below. Let's build the future together! 🚀 #Hiring #Frontend #React",
+    "likes": 412,
+    "comments": 76,
+    "timestamp": "4d"
+  },
+  {
+    "id": 7,
+    "user": {
+      "name": "Michael Chang",
+      "avatar": "https://i.pravatar.cc/150?img=7",
+      "headline": "Cybersecurity Analyst | Ethical Hacker"
+    },
+    "content": "A gentle reminder to always enable Multi-Factor Authentication (MFA) on all your accounts. The number of phishing attacks has skyrocketed this quarter, and MFA is one of the simplest yet most effective ways to protect your digital identity. Stay safe online! 🔐 #CyberSecurity #InfoSec #TechTips",
+    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=800",
+    "likes": 892,
+    "comments": 105,
+    "timestamp": "1w"
+  },
+  {
+    "id": 8,
+    "user": {
+      "name": "Priya Patel",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "headline": "Founder & CEO at GreenTech Solutions"
+    },
+    "content": "Reflecting on my journey as a founder over the past 3 years. The highs are incredibly high, but the lows can be equally daunting. Surround yourself with a strong support system and never lose sight of your 'why'. To all the entrepreneurs out there fighting the good fight, keep pushing! 💪 #StartupLife #Entrepreneurship #Leadership",
+    "likes": 1205,
+    "comments": 143,
+    "timestamp": "1w"
+  },
+  {
+    "id": 9,
+    "user": {
+      "name": "Alex Novak",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "headline": "Senior Backend Developer | Node.js & Go"
+    },
+    "content": "Just migrated our entire monolithic architecture to microservices using Go and Kubernetes! The performance improvements have been staggering—we reduced our average response time by 40%. It was a massive undertaking, but the scalability we've gained is totally worth the late nights. Has anyone else made a similar transition recently? #Microservices #Golang #Kubernetes",
+    "likes": 560,
+    "comments": 82,
+    "timestamp": "2w"
+  },
+  {
+    "id": 10,
+    "user": {
+      "name": "Jessica Taylor",
+      "avatar": "https://i.pravatar.cc/150?img=10",
+      "headline": "Marketing Director | B2B Strategy"
+    },
+    "content": "Content is king, but context is God. You can write the best article in the world, but if it doesn't reach the right audience at the right time, it won't drive results. We've shifted our strategy to focus heavily on targeted distribution rather than just high-volume production, and our engagement metrics have doubled. Quality over quantity always wins. 📈 #MarketingStrategy #ContentMarketing #B2B",
+    "likes": 310,
+    "comments": 45,
+    "timestamp": "2w"
+  },
+  {
+    "id": 11,
+    "user": {
+      "name": "Omar Farooq",
+      "avatar": "https://i.pravatar.cc/150?img=11",
+      "headline": "Staff Software Engineer | Open Source Contributor"
+    },
+    "content": "Excited to share that my latest open-source project has just crossed 1,000 stars on GitHub! ⭐ I built this tool to solve a personal pain point with state management in React, and it's amazing to see so many developers finding it useful. A huge thank you to everyone who has contributed to the codebase so far! Open source community is truly special. ❤️ #OpenSource #ReactJS #GitHub",
+    "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&q=80&w=800",
+    "likes": 1540,
+    "comments": 210,
+    "timestamp": "3w"
+  },
+  {
+    "id": 12,
+    "user": {
+      "name": "Rachel Kim",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "headline": "Human Resources Business Partner"
+    },
+    "content": "Let's talk about burnout. In today's fast-paced corporate environment, it's easy to wear exhaustion as a badge of honor. But true productivity comes from well-rested, mentally healthy employees. Leaders: encourage your teams to take their PTO, respect boundaries after hours, and prioritize mental well-being. A healthy team is a high-performing team. 🌿 #MentalHealth #WorkLifeBalance #HR",
+    "likes": 2400,
+    "comments": 350,
+    "timestamp": "1mo"
   }
 ]
